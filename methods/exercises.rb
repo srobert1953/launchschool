@@ -25,15 +25,23 @@ puts multiply(2, 2)
 
 def scream(words)
   words = words + "!!!!"
+  return
   puts words
 end
 
-p scream("Yippeee")
+scream("Yippeee")
 
 # Answer: nothing
 
 # 5. 1) Edit the method in exercise #4 so that it does print words on the screen.
 # => 2) What does it return now?
+
+def scream(words)
+  words = words + "!!!"
+  puts words
+end
+
+scream("Yippeee")
 
 # Answers:
 # => 1: remove "return"
@@ -45,4 +53,4 @@ p scream("Yippeee")
 #   from (irb):4
 #   from /Users/username/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `<main>'
 
-# Answer: method expected 2 arguments, and was given only one.
+# Answer: method `calculate_product' expected 2 arguments, and was given only one.
