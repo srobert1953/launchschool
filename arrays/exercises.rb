@@ -71,7 +71,7 @@ c = string[19]
 
 # Answer:
 # We can change Object at index as names[3] = 'jody'.
-# To change the name margaret to jody:
+# To change every name margaret in array to jody:
 
 names = ['bob', 'joe', 'susan', 'margaret']
 names.each_with_index do |name, index|
