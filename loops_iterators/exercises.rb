@@ -34,13 +34,13 @@ end
 
 # 4. Write a method that counts down to zero using recursion.
 
-def coundown(number)
+def countdown(number)
   if number <= 0
     puts number
   else
     puts number
-    coundown(number - 1)
+    countdown(number - 1)
   end
 end
 
-coundown(5)
+countdown(5)
