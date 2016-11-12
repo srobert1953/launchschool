@@ -6,42 +6,63 @@
     <title>Welcome!</title>
     <meta charset="utf-8" />
     <style type="text/css">
-      h1 {
-        color: orange;
-        text-align: right;
+
+      code {
+        background-color: #2db34a;
+        border-radius: 6px;
+        color: #fff;
+        display: block;
+        font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+        padding: 24px 15px;
+        text-align: center;
       }
 
-      p {
-        font-size: 1em;
+      header,
+      section,
+      aside,
+      footer {
+        margin: 0 1.5% 24px 1.5%;
       }
 
-      #intro {
-        font-size: 1.5em;
+      footer {
+        margin-bottom: 0px;
+        clear: both;
       }
 
-      strong.highlight {
-        background-color: #f0f099;
+      section {
+        float: left;
+        width: 30.33%;
       }
 
-      .red {
-        color: red;
-      }
-
-      .green {
-        color: green;
-      }
-
-      .blue {
-        color: blue;
+      aside {
+        clear: both;
       }
     </style>
   </head>
 
   <body>
-    <h1>Hello Internet!</h1>
+    <header>
+      <code>Header</code>
+    </header>
 
-    <div>
-      <p id="intro">Welcome to my site! It is a working in progress as I learn <strong class="highlight red">HTML</strong> and <strong class="highlight green">CSS</strong> from this <em class="highlight blue">excellent</em> book I'm learning from.</p>
-    </div>
+    <section>
+      <code>Section1</code>
+    </section>
+
+    <section>
+      <code>Section2</code>
+    </section>
+
+    <section>
+      <code>Section3</code>
+    </section>
+
+    <aside>
+      <code>Aside</code>
+    </aside>
+
+    <footer>
+      <code>Footer</code>
+    </footer>
   </body>
 </html>
