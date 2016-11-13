@@ -5,6 +5,8 @@
   <head>
     <title>Welcome!</title>
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <style type="text/css">
 
       code {
@@ -43,6 +45,25 @@
         position: relative;
         left: 20px;
       }
+
+      .notice-success {
+        background: #67b11c 20px 50% no-repeat;
+        background: linear-gradient(#72c41f, #5c9e19);
+        border: 1px solid #467813;
+        border-radius: 5px;
+        color: #fff;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        padding: 15px 20px 15px 20px;
+        font-weight: 400;
+        font-size: 100%;
+      }
+
+      .notice-success i, span {
+        vertical-align: middle;
+      }
+
+      .material-icons.md-18 { font-size: 18px; }
+
     </style>
   </head>
 
@@ -63,8 +84,10 @@
       <code>Section3</code>
     </section>
 
-    <aside class="offset">
-      <code>Aside</code>
+    <aside>
+      <div class="notice-success">
+        <i class="material-icons md-18">done</i> <span>Who hoo! you did it!</span>
+      </div>
     </aside>
 
     <footer>
